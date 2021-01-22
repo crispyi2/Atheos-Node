@@ -1,0 +1,30 @@
+{
+	"name": "atheos-ide",
+	"version": "1.0.0",
+	"description": "Web-based IDE framework ",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "npm run watch-code & npm run watch-scss",
+		"watch-code": "nodemon -q -e '*' index.js",
+		"watch-scss": "node-sass -watch --output-style compressed scss --output public/"
+	},
+	"keywords": [
+		"express",
+		"hello-world"
+	],
+	"author": "Jatin Shridhar",
+	"license": "MIT",
+	"dependencies": {
+		"bcrypt": "^5.0.0",
+		"body-parser": "^1.19.0",
+		"cookie-parser": "^1.4.5",
+		"express": "^4.15.0",
+		"express-session": "^1.17.1",
+		"flat-db": "^4.0.0"
+	},
+	"devDependencies": {
+		"node-sass": "^5.0.0",
+		"nodemon": "^2.0.7"
+	}
+}
