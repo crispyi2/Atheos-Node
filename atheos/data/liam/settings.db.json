@@ -1,0 +1,12 @@
+{
+    "sidebars.rightLockedVisible": "false",
+    "filemanager.openTrigger": "click",
+    "sidebars.sb-left-width": "291px",
+    "draft.interval": "300000",
+    "filemanager.showHidden": "true",
+    "editor.indentGuides": "true",
+    "draft.verbose": "false",
+    "editor.wrapMode": "true",
+    "editor.softTabs": "false",
+    "sidebars.sb-right-width": "191px"
+}

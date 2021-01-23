@@ -1,0 +1,52 @@
+[
+    {
+        "user": "stephen",
+        "path": "\/var\/www\/html\/atheos\/index.php",
+        "status": "active"
+    },
+    {
+        "user": "stephen",
+        "path": "\/var\/www\/html\/fsr\/assets\/js\/record-create.js",
+        "status": "active"
+    },
+    {
+        "user": "stephen",
+        "path": "\/var\/www\/html\/fsr\/assets\/js\/record-search.js",
+        "status": "active"
+    },
+    {
+        "user": "ayla",
+        "path": "\/var\/www\/html\/siira\/vendor\/erusev\/parsedown-extra\/ParsedownExtra.php",
+        "status": "active"
+    },
+    {
+        "user": "ayla",
+        "path": "\/var\/www\/html\/siira\/.gitignore",
+        "status": "active"
+    },
+    {
+        "user": "liam",
+        "path": "\/var\/www\/node\/archive\/goodeats\/package.json",
+        "status": "active"
+    },
+    {
+        "user": "liam",
+        "path": "\/var\/www\/node\/views\/login.handlebars",
+        "status": "focus"
+    },
+    {
+        "user": "liam",
+        "path": "\/var\/www\/node\/archive\/file-manager\/package.json",
+        "status": "active"
+    },
+    {
+        "user": "liam",
+        "path": "\/var\/www\/node\/archive\/file-manager\/index.js",
+        "status": "active"
+    },
+    {
+        "user": "liam",
+        "path": "\/var\/www\/node\/index.js",
+        "status": "active"
+    }
+]

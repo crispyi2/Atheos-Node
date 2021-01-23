@@ -1,0 +1,30 @@
+SyntaxError: Failed to execute 'querySelector' on 'Document': '<toast><i class="fas fa-exclamation-circle"></i><p class="message">parse error: failed at `$back {` /var/www/html/entropy/theme/system/display/_paginate.scss on line 8, at column 5</p><i class="fas fa-times-circle close"></i></toast>' is not a valid selector.
+Error: Failed to execute 'querySelector' on 'Document': '<toast><i class="fas fa-exclamation-circle"></i><p class="message">parse error: failed at `$back {` /var/www/html/entropy/theme/system/display/_paginate.scss on line 8, at column 5</p><i class="fas fa-times-circle close"></i></toast>' is not a valid selector.
+    at HTMLDocument.querySelector (<anonymous>)
+    at argToElement (https://dev.siira.io/modules/onyx.js:180:21)
+    at onyx (https://dev.siira.io/modules/onyx.js:390:17)
+    at Object.createToast (https://dev.siira.io/modules/toast.js:76:18)
+    at Object.showToast (https://dev.siira.io/modules/toast.js:85:23)
+    at Object.show (https://dev.siira.io/modules/toast.js:109:10)
+    at Object.success (https://dev.siira.io/plugins/SassCompiler/init.js:48:19)
+    at XMLHttpRequest.xhr.onload (https://dev.siira.io/modules/echo.js:61:11)
+SyntaxError: Failed to execute 'querySelector' on 'Document': '<toast><i class="fas fa-exclamation-circle"></i><p class="message">parse error: failed at `$back {` /var/www/html/entropy/theme/system/display/_paginate.scss on line 8, at column 5</p><i class="fas fa-times-circle close"></i></toast>' is not a valid selector.
+Error: Failed to execute 'querySelector' on 'Document': '<toast><i class="fas fa-exclamation-circle"></i><p class="message">parse error: failed at `$back {` /var/www/html/entropy/theme/system/display/_paginate.scss on line 8, at column 5</p><i class="fas fa-times-circle close"></i></toast>' is not a valid selector.
+    at HTMLDocument.querySelector (<anonymous>)
+    at argToElement (https://dev.siira.io/modules/onyx.js:180:21)
+    at onyx (https://dev.siira.io/modules/onyx.js:390:17)
+    at Object.createToast (https://dev.siira.io/modules/toast.js:76:18)
+    at Object.showToast (https://dev.siira.io/modules/toast.js:85:23)
+    at Object.show (https://dev.siira.io/modules/toast.js:109:10)
+    at Object.success (https://dev.siira.io/plugins/SassCompiler/init.js:48:19)
+    at XMLHttpRequest.xhr.onload (https://dev.siira.io/modules/echo.js:61:11)
+SyntaxError: Failed to execute 'querySelector' on 'Document': '<toast><i class="fas fa-exclamation-circle"></i><p class="message">parse error: failed at `$back {` /var/www/html/entropy/theme/system/display/_paginate.scss on line 8, at column 5</p><i class="fas fa-times-circle close"></i></toast>' is not a valid selector.
+Error: Failed to execute 'querySelector' on 'Document': '<toast><i class="fas fa-exclamation-circle"></i><p class="message">parse error: failed at `$back {` /var/www/html/entropy/theme/system/display/_paginate.scss on line 8, at column 5</p><i class="fas fa-times-circle close"></i></toast>' is not a valid selector.
+    at HTMLDocument.querySelector (<anonymous>)
+    at argToElement (https://dev.siira.io/modules/onyx.js:180:21)
+    at onyx (https://dev.siira.io/modules/onyx.js:390:17)
+    at Object.createToast (https://dev.siira.io/modules/toast.js:76:18)
+    at Object.showToast (https://dev.siira.io/modules/toast.js:85:23)
+    at Object.show (https://dev.siira.io/modules/toast.js:109:10)
+    at Object.success (https://dev.siira.io/plugins/SassCompiler/init.js:48:19)
+    at XMLHttpRequest.xhr.onload (https://dev.siira.io/modules/echo.js:61:11)

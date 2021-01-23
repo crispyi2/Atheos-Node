@@ -1,0 +1,6 @@
+TypeError: Cannot read property 'length' of undefined
+TypeError: Cannot read property 'length' of undefined
+    at Object.listener [as callback] (https://dev.atheos.io/components/user/init.js:361:49)
+    at https://dev.atheos.io/modules/onyx.js:68:13
+    at Array.forEach (<anonymous>)
+    at eventHandler (https://dev.atheos.io/modules/onyx.js:64:28)

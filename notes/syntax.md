@@ -1,0 +1,1 @@
+Selectors / Multiple Keys should be sent as Comma Delimited, such as Events, Amplifiy, and Identifiers

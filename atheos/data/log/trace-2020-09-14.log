@@ -1,0 +1,16 @@
+TypeError: Cannot read property 'el' of undefined
+TypeError: Cannot read property 'el' of undefined
+    at Object.saveExtensions (https://dev.atheos.io/components/textmode/init.js:144:40)
+    at HTMLButtonElement.onclick (https://dev.atheos.io/:1:17)
+ReferenceError: len is not defined
+ReferenceError: len is not defined
+    at Object.saveExtensions (https://dev.atheos.io/components/textmode/init.js:153:24)
+    at HTMLButtonElement.onclick (https://dev.atheos.io/:1:17)
+TypeError: atheos.toast[reply.status] is not a function
+TypeError: atheos.toast[reply.status] is not a function
+    at Object.success (https://dev.atheos.io/components/textmode/init.js:174:32)
+    at XMLHttpRequest.xhr.onload (https://dev.atheos.io/modules/echo.js:61:11)
+TypeError: Cannot read property 'hasClass' of undefined
+TypeError: Cannot read property 'hasClass' of undefined
+    at Object.showCodeGit (https://dev.atheos.io/components/codegit/init.js:177:13)
+    at HTMLAnchorElement.onclick (https://dev.atheos.io/:1:16)

@@ -1,0 +1,1 @@
+The alert, Modal, and Toast should be reconfigured into classes, such that you can have multiple different windows open at the same time.

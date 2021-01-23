@@ -1,0 +1,74 @@
+{
+    "liam": {
+        "password": "$2y$10$EKsKmLgV\/IidKIu7BqKr0.15RjFkJ18RRXbyZdPZE0Zn\/TiJ0yhya",
+        "activeProject": "\/var\/www\/atheos",
+        "lastLogin": "2021-01-22 16:43:09",
+        "permissions": [
+            "configure",
+            "read",
+            "write"
+        ],
+        "userACL": "full",
+        "git": {
+            "name": "Liam Siira",
+            "email": "liam@siira.us"
+        },
+        "activeName": "Node",
+        "activePath": "\/var\/www\/node"
+    },
+    "ayla": {
+        "password": "$2y$10$ii\/XUOiHCveXMTLKNR.AqOS2HURnfvq4ecab899Ktx1A1UkCl6jNC",
+        "activeProject": "\/var\/www\/atheos",
+        "lastLogin": "2020-12-31 13:18:11",
+        "permissions": [
+            "configure",
+            "read",
+            "write"
+        ],
+        "userACL": "full",
+        "activeName": "Siira",
+        "activePath": "\/var\/www\/html\/siira"
+    },
+    "kyle": {
+        "password": "$2y$10$hP\/h0v6wI9X0XinVbQQpMur5BS8FgP2L9fyaFpClxqZ7I6zOJ5Arm",
+        "creationDate": "2020-05-29 11:32:16",
+        "activeProject": "Guest",
+        "lastLogin": "2020-05-29 15:23:53",
+        "permissions": [
+            "read",
+            "write"
+        ],
+        "userACL": [
+            "Guest"
+        ]
+    },
+    "guest": {
+        "password": "$2y$10$qej9PWys5zsegY2gOKQvqOnaO.rNkfTZilZgByV5cBcrZcuSHdN2a",
+        "creationDate": "2020-06-04 14:01:42",
+        "activeProject": "",
+        "lastLogin": "2020-10-07 13:33:59",
+        "permissions": [
+            "read",
+            "write"
+        ],
+        "userACL": [
+            "\/var\/www\/html\/vault"
+        ],
+        "activeName": "Vault",
+        "activePath": "\/var\/www\/html\/vault"
+    },
+    "stephen": {
+        "password": "$2y$10$4jqL9qex\/vXLVP\/hJdZdweSOi83uUEeA\/jekZum39.UOs54OF1jT6",
+        "creationDate": "2020-07-02 21:15:11",
+        "activeProject": "\/var\/www\/html\/elsenova\/Drift",
+        "lastLogin": "2020-09-24 20:18:22",
+        "permissions": [
+            "read",
+            "write",
+            "configure"
+        ],
+        "userACL": "full",
+        "activeName": "Fsr",
+        "activePath": "\/var\/www\/html\/fsr"
+    }
+}

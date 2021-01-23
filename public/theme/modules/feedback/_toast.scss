@@ -1,0 +1,100 @@
+#toast_container {
+	min-width: 280px;
+	max-width: 480px;
+	z-index: 99999;
+	position: fixed;
+
+
+	toast {
+		height: auto;
+		background: #333;
+		padding: 5px;
+		font-size: 12px;
+		border: 2px solid #999;
+		display: block;
+		position: relative;
+		margin: 0 0 12px 0;
+		transition: opacity ease-in-out 300ms;
+		opacity: 0;
+	}
+
+	.active {
+		opacity: 1;
+	}
+
+	.message {
+		text-align: left;
+		margin: 0 5px;
+		display: inline-block;
+	}
+
+	.close {
+		font-size: 14px;
+		float: right;
+		cursor: pointer;
+	}
+
+	i:not(.close) {
+		font-size: 14px;
+		float: left;
+	}
+
+	i.fa-check-circle {
+		color: $green;
+	}
+
+	i.fa-info-circle {
+		color: $cyan;
+	}
+
+	i.fa-exclamation-triangle {
+		color: $orange;
+	}
+
+	i.fa-exclamation-circle {
+		color: $red;
+	}
+
+
+	&.top-left {
+		left: 20px;
+		top: 20px;
+	}
+
+	&.top-center {
+		top: 20px;
+		left: 50%;
+		margin-left: -140px;
+	}
+
+	&.top-right {
+		top: 20px;
+		right: 20px;
+	}
+
+	&.middle-left {
+		left: 20px;
+		top: 50%;
+		margin-top: -40px;
+	}
+
+	&.middle-center {
+		left: 50%;
+		margin-left: -140px;
+		margin-top: -40px;
+		top: 50%;
+	}
+
+	&.middle-right {
+		right: 20px;
+		margin-left: -140px;
+		margin-top: -40px;
+		top: 50%;
+	}
+
+	&.bottom-right {
+		bottom: 30px;
+		right: 25px;
+	}
+
+}

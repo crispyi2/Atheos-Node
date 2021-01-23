@@ -1,0 +1,4 @@
+ReferenceError: carbon is not defined
+ReferenceError: carbon is not defined
+    at Object.init (https://dev.siira.io/modules/system.js:48:5)
+    at HTMLDocument.<anonymous> (https://dev.siira.io/modules/system.js:102:10)

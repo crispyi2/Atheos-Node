@@ -1,0 +1,101 @@
+{
+    "plugins": {
+        "CleanCode": {
+            "AutoAlign": {
+                "author": [
+                    "HLSiira",
+                    "Andr3as"
+                ],
+                "name": "AutoAlign",
+                "description": "Enable vertical alignment for variables within code",
+                "category": "CleanCode",
+                "status": "available",
+                "url": "https:\/\/github.com\/HLSiira\/Atheos-AutoAlign",
+                "version": "1.0.1"
+            },
+            "Beautify": {
+                "author": [
+                    "HLSiira",
+                    "Andr3as"
+                ],
+                "name": "Beautify",
+                "description": "Beautify PHP, CSS, JS & HTML for the Atheos IDE",
+                "category": "CleanCode",
+                "status": "available",
+                "url": "https:\/\/github.com\/HLSiira\/Atheos-Beautify",
+                "version": "1.0.1"
+            }
+        },
+        "Compiler": {
+            "SassCompiler": {
+                "author": [
+                    "HLSiira",
+                    "Andr3as"
+                ],
+                "name": "SassCompiler",
+                "description": "Sass\/Scss Compiler for Atheos",
+                "category": "Compiler",
+                "status": "available",
+                "url": "https:\/\/github.com\/HLSiira\/Atheos-SassCompiler",
+                "version": "1.0.1"
+            }
+        },
+        "Development": {
+            "Terminal": {
+                "author": [
+                    "HLSiira",
+                    "Fluidbyte"
+                ],
+                "name": "Terminal",
+                "description": "Provides terminal emulation and interaction with server",
+                "category": "Development",
+                "status": "available",
+                "url": "https:\/\/github.com\/HLSiira\/Atheos-Terminal",
+                "version": "1.0.1",
+                "rightbar": [
+                    {
+                        "action": "atheos.Terminal.open();",
+                        "icon": "fas fa-terminal",
+                        "title": "Terminal"
+                    }
+                ]
+            }
+        },
+        "Utility": {
+            "Winddown": {
+                "author": [
+                    "HLSiira"
+                ],
+                "name": "Winddown",
+                "description": "Subtle reminder to stand up and exercise",
+                "category": "Utility",
+                "status": "available",
+                "url": "https:\/\/github.com\/HLSiira\/Atheos-Winddown",
+                "version": "1.0.1",
+                "rightbar": [
+                    {
+                        "action": "atheos.winddown.rest();",
+                        "icon": "fas fa-heartbeat",
+                        "title": "Get back to work"
+                    }
+                ]
+            }
+        }
+    },
+    "themes": {
+        "dark": {
+            "Atheos": {
+                "author": [
+                    "Atheos"
+                ],
+                "description": "The default Atheos theme",
+                "name": "Atheos",
+                "status": "available",
+                "category": "dark",
+                "url": "https:\/\/github.com\/Atheos\/Atheos.git",
+                "version": "4.0.0",
+                "type": "theme"
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+ReferenceError: toggleHidden is not defined
+ReferenceError: toggleHidden is not defined
+    at Object.toggleHidden [as callback] (https://dev.siira.io/components/filemanager/init.js:61:13)
+    at https://dev.siira.io/modules/onyx.js:68:13
+    at Array.forEach (<anonymous>)
+    at eventHandler (https://dev.siira.io/modules/onyx.js:64:28)

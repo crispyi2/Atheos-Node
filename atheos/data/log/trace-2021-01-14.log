@@ -1,0 +1,10 @@
+TypeError: Cannot read property 'find' of undefined
+TypeError: Cannot read property 'find' of undefined
+    at Object.openDir (https://dev.siira.io/components/filemanager/init.js:154:29)
+    at Object.rescan (https://dev.siira.io/components/filemanager/init.js:290:18)
+    at Object.success (https://dev.siira.io/components/filemanager/init.js:230:34)
+    at XMLHttpRequest.xhr.onload (https://dev.siira.io/modules/echo.js:61:11)
+TypeError: Cannot read property 'forEach' of undefined
+TypeError: Cannot read property 'forEach' of undefined
+    at Object.processUpload (https://dev.siira.io/components/transfer/init.js:134:15)
+    at XMLHttpRequest.send.onreadystatechange (https://dev.siira.io/components/transfer/init.js:105:13)

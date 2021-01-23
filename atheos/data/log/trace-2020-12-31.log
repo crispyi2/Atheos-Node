@@ -1,0 +1,64 @@
+TypeError: Cannot read property 'listItem' of undefined
+TypeError: Cannot read property 'listItem' of undefined
+    at Object.highlightEntry (https://dev.siira.io/components/active/init.js:342:12)
+    at Object.focus (https://dev.siira.io/components/active/init.js:296:9)
+    at Object.focus (https://dev.siira.io/components/editor/init.js:738:18)
+    at Array.<anonymous> (https://dev.siira.io/components/editor/init.js:234:10)
+    at w.r._emit.r._dispatchEvent (https://dev.siira.io/components/editor/ace-editor/ace.js:1:50102)
+    at w.onFocus (https://dev.siira.io/components/editor/ace-editor/ace.js:1:210289)
+    at HTMLTextAreaElement.<anonymous> (https://dev.siira.io/components/editor/ace-editor/ace.js:1:21625)
+    at g.focus (https://dev.siira.io/components/editor/ace-editor/ace.js:1:21757)
+    at w.focus (https://dev.siira.io/components/editor/ace-editor/ace.js:1:210042)
+    at Object.focus (https://dev.siira.io/components/editor/init.js:737:6)
+TypeError: Cannot read property 'listItem' of undefined
+TypeError: Cannot read property 'listItem' of undefined
+    at Object.highlightEntry (https://dev.siira.io/components/active/init.js:342:12)
+    at Object.focus (https://dev.siira.io/components/active/init.js:296:9)
+    at Object.focus (https://dev.siira.io/components/editor/init.js:738:18)
+    at Object.unload (https://dev.siira.io/modules/modal.js:183:18)
+    at Object.listener [as callback] (https://dev.siira.io/components/filemanager/init.js:672:18)
+    at https://dev.siira.io/modules/onyx.js:68:13
+    at Array.forEach (<anonymous>)
+    at eventHandler (https://dev.siira.io/modules/onyx.js:64:28)
+TypeError: Cannot read property 'listItem' of undefined
+TypeError: Cannot read property 'listItem' of undefined
+    at Object.highlightEntry (https://dev.siira.io/components/active/init.js:342:12)
+    at Object.focus (https://dev.siira.io/components/active/init.js:296:9)
+    at Object.focus (https://dev.siira.io/components/editor/init.js:738:18)
+    at Object.unload (https://dev.siira.io/modules/modal.js:183:18)
+    at Object.listener [as callback] (https://dev.siira.io/components/filemanager/init.js:672:18)
+    at https://dev.siira.io/modules/onyx.js:68:13
+    at Array.forEach (<anonymous>)
+    at eventHandler (https://dev.siira.io/modules/onyx.js:64:28)
+TypeError: Cannot read property 'listItem' of undefined
+TypeError: Cannot read property 'listItem' of undefined
+    at Object.highlightEntry (https://dev.siira.io/components/active/init.js:342:12)
+    at Object.focus (https://dev.siira.io/components/active/init.js:296:9)
+    at Object.focus (https://dev.siira.io/components/editor/init.js:738:18)
+    at Array.<anonymous> (https://dev.siira.io/components/editor/init.js:234:10)
+    at w.r._emit.r._dispatchEvent (https://dev.siira.io/components/editor/ace-editor/ace.js:1:50102)
+    at w.onFocus (https://dev.siira.io/components/editor/ace-editor/ace.js:1:210289)
+    at HTMLTextAreaElement.<anonymous> (https://dev.siira.io/components/editor/ace-editor/ace.js:1:21625)
+    at g.focus (https://dev.siira.io/components/editor/ace-editor/ace.js:1:21757)
+    at w.focus (https://dev.siira.io/components/editor/ace-editor/ace.js:1:210042)
+    at Object.focus (https://dev.siira.io/components/editor/init.js:737:6)
+TypeError: Cannot read property 'listItem' of undefined
+TypeError: Cannot read property 'listItem' of undefined
+    at Object.highlightEntry (https://dev.siira.io/components/active/init.js:342:12)
+    at Object.focus (https://dev.siira.io/components/active/init.js:296:9)
+    at Object.focus (https://dev.siira.io/components/editor/init.js:738:18)
+    at Array.<anonymous> (https://dev.siira.io/components/editor/init.js:234:10)
+    at w.r._emit.r._dispatchEvent (https://dev.siira.io/components/editor/ace-editor/ace.js:1:50102)
+    at w.onFocus (https://dev.siira.io/components/editor/ace-editor/ace.js:1:210289)
+    at HTMLTextAreaElement.<anonymous> (https://dev.siira.io/components/editor/ace-editor/ace.js:1:21625)
+    at g.focus (https://dev.siira.io/components/editor/ace-editor/ace.js:1:21757)
+    at w.focus (https://dev.siira.io/components/editor/ace-editor/ace.js:1:210042)
+    at Object.focus (https://dev.siira.io/components/editor/init.js:737:6)
+TypeError: Cannot read property 'listItem' of undefined
+TypeError: Cannot read property 'listItem' of undefined
+    at Object.highlightEntry (https://dev.siira.io/components/active/init.js:342:12)
+    at Object.focus (https://dev.siira.io/components/active/init.js:296:9)
+    at Object.focus (https://dev.siira.io/components/editor/init.js:738:18)
+    at Object.unload (https://dev.siira.io/modules/modal.js:183:18)
+    at Object.success (https://dev.siira.io/components/filemanager/init.js:533:21)
+    at XMLHttpRequest.xhr.onload (https://dev.siira.io/modules/echo.js:61:11)

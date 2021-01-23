@@ -1,0 +1,4 @@
+TypeError: Cannot read property 'findAll' of undefined
+TypeError: Cannot read property 'findAll' of undefined
+    at Object.rescan (https://dev.siira.io/components/filemanager/init.js:268:26)
+    at HTMLAnchorElement.onclick (https://dev.siira.io/:1:20)

@@ -1,0 +1,12 @@
+TypeError: Object doesn't support property or method 'escape'
+TypeError: Object doesn't support property or method 'escape'
+   at atheos.filemanager.openDir (https://dev.siira.io/components/filemanager/init.js:137:4)
+   at atheos.project.setRoot (https://dev.siira.io/components/project/init.js:150:4)
+   at success (https://dev.siira.io/components/project/init.js:94:6)
+   at xhr.onload (https://dev.siira.io/modules/echo.js:61:6)
+TypeError: Object doesn't support property or method 'escape'
+TypeError: Object doesn't support property or method 'escape'
+   at atheos.filemanager.openDir (https://dev.siira.io/components/filemanager/init.js:137:4)
+   at atheos.project.setRoot (https://dev.siira.io/components/project/init.js:150:4)
+   at success (https://dev.siira.io/components/project/init.js:94:6)
+   at xhr.onload (https://dev.siira.io/modules/echo.js:61:6)

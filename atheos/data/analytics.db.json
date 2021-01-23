@@ -1,0 +1,13 @@
+{
+    "atheos_uuid": "5f54523be5368",
+    "atheos_version": "v4.2.0",
+    "first_heard": "2020-09-05 23:06:35",
+    "last_heard": "2020-09-05 23:06:35",
+    "php_version": "7.4.9",
+    "server_os": "Apache",
+    "client_os": false,
+    "location": "America\/New_York",
+    "language": false,
+    "authorized": true,
+    "plugins": []
+}

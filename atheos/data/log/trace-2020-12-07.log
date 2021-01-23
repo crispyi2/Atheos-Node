@@ -1,0 +1,4 @@
+TypeError: Cannot read property 'hide' of undefined
+TypeError: Cannot read property 'hide' of undefined
+    at Object.success (https://dev.atheos.io/components/scout/init.js:102:30)
+    at XMLHttpRequest.xhr.onload (https://dev.atheos.io/modules/echo.js:61:11)
