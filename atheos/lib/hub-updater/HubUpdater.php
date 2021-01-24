@@ -19,7 +19,7 @@ class HubUpdater {
 		"controller.php",
 		"dialog.php",
 		"index.php",
-		"LICENSE.md",
+		"docs/LICENSE.md",
 		"README.md",
 		"SECURITY.md"
 	);
