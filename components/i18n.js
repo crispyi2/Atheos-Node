@@ -17,14 +17,14 @@
 				let temp = compile(value, `${prefix}${key}_`);
 				for(let k in temp) code[k] = temp[k];
 			} else {
-				// key = rtrim($prefix . $key, "_");
+				key = rtrim(prefix + key, "_");
 				code[key] =  value;
 			}
 		}
 		return code;
 	}
 
-	const cache = require('../languages/en.json');
+	const cache = compile(require('../languages/en.json'));
 
 	const i18n = {
 		handle: function(POST, SEND) {
