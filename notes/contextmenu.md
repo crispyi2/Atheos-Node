@@ -1,1 +1,0 @@
-Utilize .matches against a node / data object in teh file manager to allow for plugins to search based on their own parameters.

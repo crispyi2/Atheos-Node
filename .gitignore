@@ -1,2 +1,4 @@
 apache-perms-fix.sh
 archive/*
+notes/*
+node_modules/*

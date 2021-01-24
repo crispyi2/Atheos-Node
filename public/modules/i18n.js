@@ -32,6 +32,7 @@
 					action: 'init'
 				},
 				settled: function(status, reply) {
+					log(status, reply);
 					if (status !== 'success') return;
 					self.cache = reply.cache;
 				}

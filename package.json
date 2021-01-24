@@ -2,10 +2,10 @@
 	"name": "atheos-ide",
 	"version": "0.0.2",
 	"description": "Web-based IDE framework ",
-	"main": "index.js",
+	"main": "server.js",
 	"scripts": {
-		"start": "nodemon -q -e '*' index.js",
-		"watch-code": "nodemon -q -e '*' index.js",
+		"start": "nodemon -q -e '*' server.js",
+		"watch-code": "nodemon -q -e '*' server.js",
 		"watch-scss": "node-sass -watch --output-style compressed scss --output public/"
 	},
 	"keywords": [
@@ -40,7 +40,6 @@
 	"license": "MIT",
 	"dependencies": {
 		"bcrypt": "^5.0.0",
-		"body-parser": "^1.19.0",
 		"cookie-parser": "^1.4.5",
 		"express": "^4.15.0",
 		"express-handlebars": "^5.2.0",
@@ -48,7 +47,6 @@
 		"flat-db": "^4.0.0"
 	},
 	"devDependencies": {
-		"node-sass": "^5.0.0",
 		"nodemon": "^2.0.7"
 	}
 }
