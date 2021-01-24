@@ -10,6 +10,19 @@
 
 (function() {
 	'use strict';
+	const compDir = `${BASE_PATH}/components`;
+
+	const fs = require('fs');
+
+	fs.readdir(compDir, (err, files) => {
+		files.forEach(file => {
+			let path = `${compDir}/${file}/ext.js`;
+			fs.access(path, fs.F_OK, (err) => {
+				if (err) return;
+				global.sources.components.push(path);
+			});
+		});
+	});
 
 	global.sources = {
 		modules: [
@@ -36,7 +49,11 @@
 			"fonts/file-icons/webfont.min.css",
 			"fonts/fontawesome/webfont.css",
 			"fonts/ubuntu/webfont.css"
-		]
+		],
+		themes: [
+			'atheos'
+		],
+		components: []
 	};
 
 }());

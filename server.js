@@ -1,6 +1,7 @@
 const express = require('express'),
 	handlebars = require("express-handlebars"),
 	session = require('express-session'),
+	compression = require('compression'),
 	cookieParser = require('cookie-parser');
 
 global.common = require('./common.js');
@@ -22,7 +23,7 @@ app.use(express.urlencoded({
 
 // initialize cookie-parser to allow us access the cookies stored in the browser. 
 app.use(cookieParser());
-
+app.use(compression());
 
 // initialize express-session to allow us track the logged-in user across sessions.
 app.use(session({
@@ -48,6 +49,7 @@ app.set('views', './views');
 app.set('view engine', 'hbs');
 
 app.use('/favicons', express.static('public/favicons_green'));
+app.use('/components', express.static('components'));
 app.use('/fonts', express.static('public/fonts'));
 app.use('/modules', express.static('public/modules'));
 app.use('/theme', express.static('public/theme'));

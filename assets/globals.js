@@ -32,6 +32,24 @@
 	global.isDate = (value) => value instanceof Date;
 	global.isNull = (value) => value === null;
 
+	//////////////////////////////////////////////////////////////////////////80
+	// Methods for determining whether something is or isn't
+	//////////////////////////////////////////////////////////////////////////80
+	global.trim = function(str, chr) {
+		var rgxtrim = (!chr) ? new RegExp('^\\s+|\\s+$', 'g') : new RegExp('^' + chr + '+|' + chr + '+$', 'g');
+		return str.replace(rgxtrim, '');
+	};
+
+	global.rtrim = function(str, chr) {
+		var rgxtrim = (!chr) ? new RegExp('\\s+$') : new RegExp(chr + '+$');
+		return str.replace(rgxtrim, '');
+	};
+
+	global.ltrim = function(str, chr) {
+		var rgxtrim = (!chr) ? new RegExp('^\\s+') : new RegExp('^' + chr + '+');
+		return str.replace(rgxtrim, '');
+	};
+
 	//////////////////////////////////////////////////////////////////////
 	// Shorthand for sending to console
 	//////////////////////////////////////////////////////////////////////

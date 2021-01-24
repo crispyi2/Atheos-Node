@@ -12,6 +12,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="A Web-Based IDE with a small footprint and minimal requirements">
 
+	<!--Link fonts-->
+	{{#each fonts}}
+		<link rel="stylesheet" href="{{this}}">
+	{{/each}}
+
 	<!--Link favicons-->
 	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png?v=2">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png?v=2">
@@ -25,6 +30,7 @@
 	<!--Link themes-->
 	<link rel="stylesheet" href="theme/main.min.css">
 
+	<!--Link moduules-->
 	{{#each modules}}
 		<script type="text/javascript" src="{{this}}"></script>
 	{{/each}}
