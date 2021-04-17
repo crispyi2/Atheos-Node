@@ -81,5 +81,5 @@ app.use(function(req, res, next) {
 	res.status(404).send("Sorry can't find that!");
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 const http = app.listen(port, () => log(`App listening on port ${port}`));
